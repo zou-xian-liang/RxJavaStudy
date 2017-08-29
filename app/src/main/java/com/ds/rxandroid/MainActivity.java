@@ -61,7 +61,5 @@ public class MainActivity extends Activity {
         };
         //建立连接，只有调用了这个接口，被订阅者和订阅者才能开始发送和接收消息
         observable.subscribe(observer);
-
-
     }
 }
